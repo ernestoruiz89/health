@@ -84,8 +84,8 @@ class PatientHistory {
 					get_data: () => {
 						return document_types.map(document_type => {
 							return {
-								description: document_type,
-								value: document_type
+								description: __(document_type),
+								value: __(document_type)
 							};
 						});
 					},
